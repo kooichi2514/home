@@ -17,6 +17,10 @@ function cliqueBotoes(){
         if (el.classList.contains('btn-calc')) {
             window.location.href = "./Calculadora.html";
         }
+        
+        if (el.classList.contains('btn-valida')) {
+            window.location.href = "./validaform.html";
+        }
 
         if (el.classList.contains('btn-projetin')) {
             window.location.href = "./MarcaPonto.html";
